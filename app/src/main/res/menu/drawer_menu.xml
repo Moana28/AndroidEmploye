@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Général">
+
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Accueil" />
+            <item
+                android:id="@+id/entreprise"
+                android:icon="@drawable/ic_baseline_account_balance_24"
+                android:title="Entreprise" />
+            <item
+                android:id="@+id/employe"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                android:title="Employé" />
+            <item
+                android:id="@+id/travail"
+                android:icon="@drawable/ic_baseline_home_repair_service_24"
+                android:title="Travail" />
+        </menu>
+    </item>
+    <item android:title="Autre">
+
+        <menu>
+            <item
+                android:id="@+id/salaireParEmpl"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Salaire par employe" />
+            <item
+                android:id="@+id/salaireEmplGlob"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Salaire Global" />
+            <item
+                android:id="@+id/graphe"
+                android:icon="@drawable/ic_baseline_group_add_24"
+                android:title="Graphe" />
+        </menu>
+    </item>
+    <item android:title="Profil">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_settings_power_24"
+                android:title="Se déconnecter" />
+        </menu>
+    </item>
+
+
+
+</menu>

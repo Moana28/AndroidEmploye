@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBleuMarine"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/id_num_employe_salaireGlobal"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/e01"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingEnd="5dp"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:paddingEnd="15dp"
+            android:paddingRight="15dp"
+            android:maxWidth="220dp">
+
+            <TextView
+                android:id="@+id/nom_salaire_Emp_global"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_margin="1dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="@string/rakoto_bezara_augustun"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="30">
+
+            <TextView
+                android:id="@+id/salaire_global"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="100000"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

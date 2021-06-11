@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Menu_Drawer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="employes">EMPLOYES</string>
+    <string name="rakoto_bezara_augustun">RAKOTO BEZARA Augustun</string>
+    <string name="e01">E01</string>
+    <string name="todo">TODO</string>
+    <string name="employe_S">Employe</string>
+    <string name="entreprise_S">Entreprise</string>
+    <string name="oui">OUI</string>
+    <string name="non">NON</string>
+    <string name="x">X</string>
+</resources>
